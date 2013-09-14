@@ -1,0 +1,10 @@
+{"ts":1379165687707,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1379165963135,"patch":[[{"diffs":[[1,"<!doctype html>\n<html lang=\"sv\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Kontakt</title>\n        \n    </head>\n    <body>\n        <p>Temporär text</p>\n    </body>\n</html>"]],"start1":0,"start2":0,"length1":0,"length2":186}]],"length":186,"saved":false}
+{"ts":1379166430926,"patch":[[{"diffs":[[0," <body>\n"],[1,"        <ul>\n            <li><a href=\"#\">Start</a></li>\n            <li><a href=\"#\">Laborationer</a></li>\n            <li><a href=\"#\">Presentation</a></li>\n            <li><a href=\"#\">Kontakt</a></li>\n        </ul>\n"],[0,"        "]],"start1":130,"start2":130,"length1":16,"length2":231}]],"length":401,"saved":false}
+{"ts":1379166695306,"patch":[[{"diffs":[[0," <body>\n"],[1,"        <p>Kevin M:s Webbsajt</p>\n"],[0,"        "]],"start1":130,"start2":130,"length1":16,"length2":50}]],"length":435,"saved":false}
+{"ts":1379167007014,"patch":[[{"diffs":[[0,"a href=\""],[-1,"#"],[1,"../index.html"],[0,"\">Start<"]],"start1":202,"start2":202,"length1":17,"length2":29}]],"length":447,"saved":false}
+{"ts":1379167042008,"patch":[[{"diffs":[[0,"a href=\""],[-1,"#"],[1,"laborationer.html"],[0,"\">Labora"]],"start1":257,"start2":257,"length1":17,"length2":33}]],"length":463,"saved":false}
+{"ts":1379167062293,"patch":[[{"diffs":[[0,"a href=\""],[-1,"#"],[1,"presentation.html"],[0,"\">Presen"]],"start1":323,"start2":323,"length1":17,"length2":33}]],"length":479,"saved":false}
+{"ts":1379167075184,"patch":[[{"diffs":[[0,"ef=\""],[-1,"#"],[1,"kontakt.html"],[0,"\">Ko"]],"start1":393,"start2":393,"length1":9,"length2":20}]],"length":490,"saved":false}
+{"ts":1379167227662,"patch":[[{"diffs":[[0," <p>"],[-1,"Temporär tex"],[1,"Laborationer"],[0,"t</p"]],"start1":449,"start2":449,"length1":20,"length2":20}]],"length":490,"saved":false}
+{"ts":1379167231705,"patch":[[{"diffs":[[0,"rationer"],[-1,"t"],[0,"</p>\n   "]],"start1":457,"start2":457,"length1":17,"length2":16}]],"length":489,"saved":false}
