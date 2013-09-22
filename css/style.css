@@ -1,10 +1,5 @@
 
-* {
-    padding:0;
-    margin:0;
 
-    
-}
 body 
 {
     background:grey;
@@ -23,6 +18,7 @@ body
 {
     border-style:solid;
     border-width:1px;
+    height:150px;
 	
 }
 #content
@@ -30,6 +26,11 @@ body
     border-style:solid;
     border-width:1px;
     margin-left: 165px;
+    
+}
+#content ol,ul
+{
+    list-style:none;
     
 }
 #nav

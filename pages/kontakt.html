@@ -3,41 +3,55 @@
     <head>
         <meta charset="utf-8">
         <title>Kontakt</title>
+        <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
-        <p>Kevin M:s Webbsajt</p>
-        <ul>
-            <li><a href="../index.html">Start</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
+    <div id="container">
+        <div id="header">
+                <h1>Kontakt</h1>
+            </div>
+            
+            <div id="nav">
+            <p>Kevin M:s Webbsajt</p>
+            <ul>
+                <li><a href="../index.html">Start</a></li>
+                <li><a href="laborationer.html">Laborationer</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+            </div>
+            
+            <div id="content">
+            <p>Observera detta är bara ett påhittat kontaktformulär</p>
+            
+        <form id="kontakt-formulär" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            <fieldset>
+                <legend>Vem är du?</legend>
         
-        <p>Observera detta är bara ett påhittat kontaktformulär</p>
+                <label for="kön">Kön</label>   
+                <select name="Kön" id="kön">
+                    <option value="blank" selected>Välj kön</option>
+                    <option value="man">Man</option>
+                    <option value="kvinna">Kvinna</option>
+                </select>
+                <label for="namn">Namn:</label><input type="text" name="Namn" id="namn" value="">
+                <label for="intressen">Intressen:</label><textarea name="Intressen" id="intressen" cols="15" rows="2"></textarea>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Information om dig</legend>
+            
+                <label for="mail">Kontakta mig via mail</label> <input type="checkbox" name="Mail" id="mail" value="Ja">
+                <label for="telefon">Kontakta mig via telefon</label> <input type="checkbox" name="Telefon" id="telefon" value="Ja">
+            
+            </fieldset>
+                <input type="submit" value="Skicka frågan">
+        </form>
+        </div>
         
-    <form id="kontakt-formulär" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-        <fieldset>
-            <legend>Vem är du?</legend>
-    
-            <label for="kön">Kön</label>   
-            <select name="Kön" id="kön">
-                <option value="blank" selected>Välj kön</option>
-                <option value="man">Man</option>
-                <option value="kvinna">Kvinna</option>
-            </select>
-            <label for="namn">Namn:</label><input type="text" name="Namn" id="namn" value="">
-            <label for="intressen">Intressen:</label><textarea name="Intressen" id="intressen" cols="15" rows="2"></textarea>
-        </fieldset>
-        
-        <fieldset>
-            <legend>Information om dig</legend>
-        
-            <label for="mail">Kontakta mig via mail</label> <input type="checkbox" name="Mail" id="mail" value="Ja">
-            <label for="telefon">Kontakta mig via telefon</label> <input type="checkbox" name="Telefon" id="telefon" value="Ja">
-        
-        </fieldset>
-            <input type="submit" value="Skicka frågan">
-    </form>
-    
+        <div id="footer">
+                <p>Ansvarig för materialet på denna sida: Kevin Madsen</p>
+            </div>
+        </div>
     </body>
 </html>
