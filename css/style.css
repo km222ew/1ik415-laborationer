@@ -6,8 +6,39 @@
     background header:#DCDDD8;
     text header:#DCDDD8
     background footer:#D74B4B
+     #102E37
 */
 
+body 
+{
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 0.875em;
+}
+h1
+{
+    font-size:3em;
+}
+h2
+{
+    font-size:2em;
+}
+h3
+{
+    font-size:1.4em;
+}
+p
+{
+    font-size:1em;
+}
+a 
+{
+    text-decoration:none;   
+}
+a:link {color:#2BBBD8;}
+a:visited {color:#2BBBD8;}
+a:focus {color:#527578;}
+a:hover {color:black;}
+a:active {color:red;}
 #container
 {
     width: 960px ;
@@ -52,6 +83,7 @@
 }
 #nav a
 {
+    color :black;
     text-decoration:none;
     display:block;
     padding:10px;
