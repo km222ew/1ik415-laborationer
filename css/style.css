@@ -59,17 +59,20 @@ a:active {color:red;}
 }
 #content
 {
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:5px;
     background-color:#DCDDD8;
     float:left;
-    width: 800px ;
+    width: 780px ;
 }
 #content .icon
 {
-background-image: url('pics/dpad.jpg');
-background-repeat: no-repeat;
-padding-left: 28px;  /* width of the image plus a little extra padding */
-display: block;
-background-size:23px 23px;
+    background-image: url('pics/dpad.jpg');
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    display: block;
+    background-size:23px 23px;
 }
 #content ol,ul
 {
@@ -80,11 +83,6 @@ background-size:23px 23px;
     margin-top:5px;
     float: left;
     width: 160px;
-}
-#nav p
-{
-    list-style:none;
-    margin-left:5px;
 }
 #nav ul
 {
@@ -98,15 +96,13 @@ background-size:23px 23px;
 }
 #nav a
 {
-    color :black;
-    text-decoration:none;
+    color:black;
     display:block;
     padding:10px;
 }
 #nav a:hover
 {
     background-color:#FCD271;
-    
 }
 #nav .active a 
 {
