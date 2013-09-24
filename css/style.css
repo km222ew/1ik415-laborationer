@@ -54,6 +54,20 @@ a:active    {color:red;}
     float:left;
     width: 780px ;
 }
+#content .right
+{
+    float:right;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+#content .left
+{
+    float:left;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+}
 #content .icon
 {
     background-image: url('pics/dpad.jpg');
@@ -103,4 +117,8 @@ background-color:red;
     background-color:#D74B4B;
     text-align: center ;
     clear: both ;
+}
+.clearfix
+{
+    clear:both;
 }
