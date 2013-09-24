@@ -54,6 +54,39 @@ a:active    {color:red;}
     float:left;
     width: 780px ;
 }
+#content table, th, td
+{
+    border-collapse:collapse;
+    border: 3px solid #06A2CB;
+    text-align:center;
+    background-color:white;
+}
+#content .green
+{
+    color:#DCDDD8;
+    background-color:green;
+    
+}
+#content .yellow
+{
+    color:black;
+    background-color:yellow;
+    
+}
+#content table
+{
+    float:right;
+    width:90px;
+}
+#content th
+{
+    background-color:#2BBBD8;
+    padding:5px;
+}
+#content td
+{
+    padding:5px;
+}
 #content .right
 {
     float:right;
