@@ -139,6 +139,7 @@ input , select
 {
     float:right;
     width:90px;
+    margin-top:-130px;
 }
 #content th
 {
