@@ -183,6 +183,50 @@ input , select
     float: left;
     width: 160px;
 }
+#home
+{
+    background-image: url('pics/sprite.png');
+    background-repeat:no-repeat;
+    background-position:0 -48px;
+}
+#home:hover
+{
+    
+    background-position:0 0;
+}
+#lab
+{
+    background-image: url('pics/sprite.png');
+    background-repeat:no-repeat;
+    background-position:0 -144px;
+}
+#lab:hover
+{
+    
+    background-position:0 -96px;
+}
+#me
+{
+    background-image: url('pics/sprite.png');
+    background-repeat:no-repeat;
+    background-position:0 -240px;
+}
+#me:hover
+{
+    
+    background-position:0 -192px;
+}
+#contact
+{
+    background-image: url('pics/sprite.png');
+    background-repeat:no-repeat;
+    background-position:0 -336px;
+}
+#contact:hover
+{
+    
+    background-position:0 -288px;
+}
 #nav ul
 {
     list-style:none;
@@ -190,6 +234,7 @@ input , select
 }
 #nav li
 {
+    
     background-color:#06A2CB;
     margin:5px;
 }
@@ -198,15 +243,11 @@ input , select
     color:black;
     display:block;
     padding:10px;
+    padding-left:35px;
+    
 }
-#nav a:hover
-{
-    background-color:#FCD271;
-}
-#nav .active a 
-{
-background-color:red;
-}
+
+
                                                 /* FOOTER */
 #footer
 {
