@@ -27,7 +27,8 @@ a:active    {color:red;}
 
 image, video
 {
-    max-width:100;
+    max-width:100%;
+    
 }
 form    
 {
@@ -118,7 +119,7 @@ input , select
     margin-bottom:5px;
     background-color:#DCDDD8;
     float:left;
-    width: 780px ;
+    max-width: 780px ;
 }
 #content table, th, td
 {
@@ -157,9 +158,10 @@ input , select
 #content .right
 {
     float:right;
-    padding-bottom:5px;
+    margin-bottom:5px;
+    margin-left:10px;
+    margin-right:10px;
     padding-left:10px;
-    padding-right:10px;
 }
 #content .left
 {
