@@ -1,0 +1,70 @@
+
+body 
+{
+    color : black;
+    background : white;
+    font-family : "Times New Roman", Times, serif;
+    font-size : 12pt;
+}
+
+a:link:after, a:visited:after 
+{ 
+    content:" [" attr(href) "] " ;
+}
+
+a 
+{
+    text-decoration : underline;
+    color : black;
+}
+
+#container, #content
+{
+    color : black;
+    width: auto; 
+	border:0; 
+	margin:0.5%; 
+	padding:0; 
+	float: none;
+	background: transparent;
+}
+
+#nav, #footer, #header
+{ 
+    display : none; 
+}
+
+video, img
+{
+    display : none; 
+}
+
+form
+{
+    color : black;
+    background : transparent;
+}
+
+fieldset
+{
+    border: 1px solid black;
+}
+
+input[type="submit"]
+{
+    background:white;
+    color:black;
+    border:1px solid black;
+}
+
+#content table, th, td
+{
+    
+    border: 1px solid black;
+    text-align:center;
+    background-color:white;
+    color:black;
+    margin-top:-130px;
+    margin-left:10px;
+    
+}
