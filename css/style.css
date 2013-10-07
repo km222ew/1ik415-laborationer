@@ -32,13 +32,14 @@ img, video
 }
 form    
 {
-    margin:auto;
-    position:relative;
-    width:500px;
+    margin-left: auto ;
+    margin-right: auto ;
+    max-width:500px;
     font-size: 1em;
     font-weight: bold;
     color: #06A2CB;
     text-decoration: none;
+    
 }
 
 fieldset 
@@ -119,7 +120,8 @@ input , select
     margin-bottom:5px;
     background-color:#DCDDD8;
     float:left;
-    max-width: 780px ;
+    width: 780px ;
+    max-width:100%;
 }
 #content table, th, td
 {

@@ -257,6 +257,7 @@ input , select
 #footer
 {
     background-color:#D74B4B;
+    font-size:1.35em;
     text-align: center ;
     max-width:100%;
 }
