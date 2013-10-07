@@ -25,7 +25,7 @@ a:focus     {color:#527578;}
 a:hover     {color:black;}
 a:active    {color:red;}
 
-image, video
+img, video
 {
     max-width:100%;
     

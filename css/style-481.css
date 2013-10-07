@@ -4,11 +4,11 @@ body
             font-family: "Helvetica", "Arial", sans-serif;
             font-size: 0.875em;
 }
-h1          {font-size:3em;}
-h2          {font-size:2em;}
-h3          {font-size:1.4em;}
-p           {font-size:1em;}
-a           {text-decoration:none;}
+h1          {font-size:3.5em; margin-top:5px; margin-bottom:5px;}
+h2          {font-size:2.5em;}
+h3          {font-size:1.9em;}
+p           {font-size:1.35em; line-height:1.5;}
+a           {text-decoration:none; font-size:1.5em;}
 a:link      {color:#2BBBD8;}
 a:visited   {color:#2BBBD8;}
 a:focus     {color:#527578;}
@@ -19,6 +19,9 @@ img, video
 {
     max-width:100%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
     
 }
 
@@ -101,7 +104,9 @@ input , select
     background-size: 100% 100%;
     background-position:left;
     background-color:#475F77;
-    height:100px;
+    max-height:100%;
+    margin-top:5px;
+    margin-bottom:5px;
 }
                                                 /* CONTENT */
 #content
@@ -175,7 +180,7 @@ input , select
 #nav
 {
     margin-top:5px;
-    
+    margin-bottom:5px;
     max-width: 100%;
 }
 #home
@@ -231,14 +236,14 @@ input , select
 {
     
     background-color:#06A2CB;
-    margin-top:5px;
+    margin-top:10px;
 }
 #nav a
 {
     color:black;
     display:block;
-    padding:10px;
-    padding-left:35px;
+    padding:20px;
+    text-align:center;
     
 }
 
