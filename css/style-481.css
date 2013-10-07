@@ -29,8 +29,8 @@ form
 {
     margin:auto;
     position:relative;
-    width:500px;
-    font-size: 1em;
+    max-width:100%;
+    font-size: 2em;
     font-weight: bold;
     color: #06A2CB;
     text-decoration: none;
@@ -43,9 +43,11 @@ fieldset
 
 #intressen 
 {
-    width:300px;
-    height:100px;
+    width:100%;
+    height:250px;
     display:block;
+    border-radius:5px;
+    font-size:1.25em;
 }
 
 legend 
@@ -55,36 +57,76 @@ legend
 
 input[type="submit"]
 {
-    height:35px;
-    width:100px;
+    height:75px;
+    width:150px;
     background:#06A2CB;
     color:white;
+    font-size: 0.75em;
     border-radius: 15px;
     margin-top:10px;
-    float:right;
+    display:block;
+    margin-left: auto;
+    margin-right: auto 
+    
 }
+
 input[type="submit"]:hover 
 {
     background:#FCD271;
     color:#09C;
-    
+}
+
+.checkbox label 
+{  
+    display: inline-block;  
+    cursor: pointer;  
+    position: relative;  
+    padding-left: 35px;  
+    margin-right: 15px;  
+    margin-bottom:20px;
+    margin-top:20px;
 }
 
 input[type="checkbox"]
 {
-    width:15px;
-    height:15px;
-    float:left;
-    margin:auto;
-    margin-right:5px;
-    
+    display: none;
+}
+
+.checkbox label:before 
+{  
+    content: "";  
+    display: inline-block;  
+  
+    width: 30px;  
+    height: 30px;  
+  
+    margin-right: 10px;  
+    position: absolute;  
+    left: 0;  
+    bottom: 1px;  
+    background-color: #aaa;  
+}
+
+.checkbox label:before 
+{  
+    border-radius: 3px;  
+}
+
+input[type=checkbox]:checked + label:before 
+{  
+    content: "\2713";  
+    font-size: 30px;  
+    color: #f3f3f3;  
+    text-align: center;  
 }
 
 input , select   
 {
-    width:300px;
+    width:100%;
     display:block;
-    height: 21px;
+    height: 45px;
+    font-size:1.25em;
+    border-radius:8px;
 }
                                                 /* CONTAINER */
 #container
@@ -97,12 +139,12 @@ input , select
                                                 /* HEADER */
 #header 
 {
-    text-align:center;
-    color:#D74B4B;
     background-image:url('pics/logo.png');
     background-repeat:no-repeat;
-    background-size: 100% 100%;
-    background-position:left;
+    background-position:center ;
+    text-align:center;
+    color:#D74B4B;
+    overflow:auto;
     background-color:#475F77;
     max-height:100%;
     margin-top:5px;
@@ -183,50 +225,7 @@ input , select
     margin-bottom:5px;
     max-width: 100%;
 }
-#home
-{
-    background-image: url('pics/sprite.png');
-    background-repeat:no-repeat;
-    background-position:0 -48px;
-}
-#home:hover
-{
-    
-    background-position:0 0;
-}
-#lab
-{
-    background-image: url('pics/sprite.png');
-    background-repeat:no-repeat;
-    background-position:0 -144px;
-}
-#lab:hover
-{
-    
-    background-position:0 -96px;
-}
-#me
-{
-    background-image: url('pics/sprite.png');
-    background-repeat:no-repeat;
-    background-position:0 -240px;
-}
-#me:hover
-{
-    
-    background-position:0 -192px;
-}
-#contact
-{
-    background-image: url('pics/sprite.png');
-    background-repeat:no-repeat;
-    background-position:0 -336px;
-}
-#contact:hover
-{
-    
-    background-position:0 -288px;
-}
+
 #nav ul
 {
     list-style:none;
@@ -242,8 +241,10 @@ input , select
 {
     color:black;
     display:block;
-    padding:20px;
+    padding:25px;
     text-align:center;
+    font-size:1.75em; 
+    
     
 }
 
