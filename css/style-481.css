@@ -9,7 +9,7 @@ h2          {font-size:2.5em;}
 h3          {font-size:1.9em;}
 p           {line-height:1.5;}
 
-a           {text-decoration:none;}
+a           {font-size:1.5em; text-decoration:none;}
 a:link      {color:#2BBBD8;}
 a:visited   {color:#2BBBD8;}
 a:focus     {color:#527578;}
@@ -156,7 +156,7 @@ input , select
 {
     padding:5px;
     background-color:#DCDDD8;
-    font-size:1.35em;
+    font-size:1.5em;
     max-width: 100% ;
 }
 #content table, th, td
@@ -213,9 +213,9 @@ input , select
 {
     background-image: url('pics/dpad.jpg');
     background-repeat: no-repeat;
-    padding-left: 28px;
+    padding-left: 55px;
     display: block;
-    background-size:23px 23px;
+    background-size:45px 45px;
 }
 #content ol,ul,d
 {
