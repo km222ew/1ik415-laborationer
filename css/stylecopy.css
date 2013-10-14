@@ -1,0 +1,170 @@
+header, footer, main, article, nav
+{
+    display:block;
+}
+
+body        
+{           
+            font-family: "Helvetica", "Arial", sans-serif;
+            font-size: 0.875em;
+}
+h1          {font-size:3em;}
+h2          {font-size:2em;}
+h3          {font-size:1.4em;}
+p           {font-size:1em;}
+a           {text-decoration:none;}
+a:link      {color:red;}
+a:visited   {color:#2BBBD8;}
+a:focus     {color:#527578;}
+a:hover     {color:black;}
+a:active    {color:red;}
+
+img, video
+{
+    max-width:100%;
+    
+}
+
+#container
+{
+    max-width: 960px ;
+    overflow:auto;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+header
+{
+     text-align:center;
+    color:#DCDDD8;
+    background-image:url('pics/logo.png');
+    background-repeat:no-repeat;
+    background-size:160px 150px;
+    background-position:left;
+    background-color:#475F77;
+    height:150px;
+}
+
+main
+{
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    background-color:#DCDDD8;
+    float:left;
+    width: 780px ;
+    max-width:100%;
+}
+.right
+{
+    float:right;
+    margin-bottom:5px;
+    margin-left:10px;
+    margin-right:10px;
+    padding-left:10px;
+}
+.left
+{
+    float:left;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.icon
+{
+    background-image: url('pics/dpad.jpg');
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    display: block;
+    background-size:23px 23px;
+}
+.comment
+{
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+}
+ol,ul
+{
+    list-style:none;
+}
+
+nav
+{
+    margin-top:5px;
+    float: left;
+    width: 160px;
+}
+#home
+{
+    background-image: url('pics/sprite.png');
+    background-repeat:no-repeat;
+    background-position:0 -48px;
+}
+#home:hover
+{
+    
+    background-position:0 0;
+}
+#lab
+{
+    background-image: url('pics/sprite.png');
+    background-repeat:no-repeat;
+    background-position:0 -144px;
+}
+#lab:hover
+{
+    
+    background-position:0 -96px;
+}
+#me
+{
+    background-image: url('pics/sprite.png');
+    background-repeat:no-repeat;
+    background-position:0 -240px;
+}
+#me:hover
+{
+    
+    background-position:0 -192px;
+}
+#contact
+{
+    background-image: url('pics/sprite.png');
+    background-repeat:no-repeat;
+    background-position:0 -336px;
+}
+#contact:hover
+{
+    
+    background-position:0 -288px;
+}
+nav ul
+{
+    list-style:none;
+    margin-left:-45px;
+}
+nav li
+{
+    
+    background-color:#06A2CB;
+    margin:5px;
+}
+nav a
+{
+    color:black;
+    display:block;
+    padding:10px;
+    padding-left:35px;
+    
+}
+
+footer
+{
+    background-color:#D74B4B;
+    text-align: center ;
+    clear: both ;
+}
+.clearfix
+{
+    clear:both;
+}
