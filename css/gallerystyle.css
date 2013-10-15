@@ -1,0 +1,21 @@
+img
+{
+    width:200px;
+    height:200px;
+}
+
+#images a
+{
+	background: white;
+	display: inline;
+	float: left;
+	margin: 0 25px 45px;
+	padding: 15px 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
+	-webkit-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:5;
+    position:relative;
+}
