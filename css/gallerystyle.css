@@ -1,3 +1,15 @@
+body
+{
+    background-color:teal;
+}
+#container
+{
+    max-width:100%;
+    background-color:teal;
+    margin-left:auto;
+    margin-right:auto;
+    padding:40px;
+}
 img
 {
     width:200px;
@@ -8,6 +20,7 @@ img
 	width: inherit; 
 }
 #images a:after {
+    
 	color:black;
 	top:10px;
 	font-size: 20px;
@@ -17,6 +30,7 @@ img
 }
 #images a
 {
+    font-family: 'Coda Caption', sans-serif;
 	background: white;
 	display: inline;
 	float: left;
@@ -58,5 +72,15 @@ img
 {
 	-webkit-transform: rotate(5deg);  
 	transform: rotate(5deg); 
+}
+
+#images a:hover, #images a:focus{
+	-webkit-transform: rotate(0deg); 
+        transform: rotate(0deg);
+	-webkit-transform: scale(1.5); 
+        transform: scale(1.5);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .9);
+        box-shadow: 0 10px 20px rgba(0,0,0,.9);
 }
 
