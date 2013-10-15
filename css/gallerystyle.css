@@ -3,7 +3,18 @@ img
     width:200px;
     height:200px;
 }
-
+#images img { 
+	display: block; 
+	width: inherit; 
+}
+#images a:after {
+	color:black;
+	top:10px;
+	font-size: 20px;
+	content: attr(title);
+	position: relative;
+	
+}
 #images a
 {
 	background: white;
@@ -16,6 +27,7 @@ img
 	-webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
 	-webkit-transition: all .15s linear;
 	transition: all .15s linear;
-	z-index:5;
+	z-index:0;
     position:relative;
 }
+
