@@ -92,6 +92,19 @@ input , select
     display:block;
     height: 21px;
 }
+#hcard-Kevin-Madsen
+{
+    width:240px;
+    max-width:100%;
+    display:block;
+    clear:both;
+    border:solid 1px teal;
+    border-radius: 8px;
+    padding:5px;
+    margin:5px;
+    margin-top:10px;
+    
+}
                                                 /* CONTAINER */
 #container
 {
