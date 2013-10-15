@@ -29,5 +29,34 @@ img
 	transition: all .15s linear;
 	z-index:0;
     position:relative;
+    
+}
+#images a:nth-child(2n)
+{
+	-webkit-transform: rotate(6deg); 
+	transform: rotate(6deg); 
+}
+#images a:nth-child(3n) { 
+	-webkit-transform: rotate(-14deg);  
+	transform: rotate(-14deg); 
+}
+#images a:nth-child(3) { 
+	-webkit-transform: rotate(3deg);  
+	transform: rotate(3deg); 
+}
+#images a:nth-child(4n)
+{
+	-webkit-transform: rotate(8deg);  
+	transform: rotate(8deg); 
+}
+#images a:nth-child(5n)
+{
+	-webkit-transform: rotate(-3deg);  
+	transform: rotate(-3deg); 
+}
+#images a:nth-child(9)
+{
+	-webkit-transform: rotate(5deg);  
+	transform: rotate(5deg); 
 }
 
